@@ -10,6 +10,7 @@ const RestaurantCard = () =>
             <Title>
                 Nome do Restaurante
             </Title>
+            
             <ReactStars 
               count={5}
               isHalf

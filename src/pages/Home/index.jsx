@@ -7,10 +7,11 @@ import TextField, { Input } from '@material/react-text-field';
 import MaterialIcon from '@material/react-material-icon';
 
 import { Container, Search, Logo, Wrapper, CarouselTitle } from './styles';
-import { Card, RestaurantCard } from '../../components';
+import { Card, RestaurantCard, Modal } from '../../components';
 
 const Home = () => {
   const [inputValue, setInputValue] = useState('');
+  const [modalOpened, setModalOpened] = useState(true);
 
   const settings = {
     dots: false,
@@ -49,9 +50,12 @@ const Home = () => {
             <Card photo={restaurante} title="Restaurante"/>
             
           </Slider>
+          
         </Search>
         <RestaurantCard />
       </Container>
+      
+      <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)}/>
     </Wrapper>
   );
 };
