@@ -7,7 +7,7 @@ import TextField, { Input } from '@material/react-text-field';
 import MaterialIcon from '@material/react-material-icon';
 
 import { Container, Search, Logo, Wrapper, CarouselTitle } from './styles';
-import { Card, RestaurantCard, Modal } from '../../components';
+import { Card, RestaurantCard, Modal, Map } from '../../components';
 
 const Home = () => {
   const [inputValue, setInputValue] = useState('');
@@ -54,8 +54,8 @@ const Home = () => {
         </Search>
         <RestaurantCard />
       </Container>
-      
-      <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)}/>
+      <Map />
+      {/* <Modal open={modalOpened} onClose={() => setModalOpened(!modalOpened)}/> */}
     </Wrapper>
   );
 };
