@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+![Banner](https://github.com/emanoelantonio/react-restaurante/blob/main/src/assets/logo.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/emanoelantonio/react-restaurante/blob/main/LICENSE)
+# 👋 React-restaurant
 
-## Available Scripts
+😊 Fico muito feliz em saber que você chegou até aqui!
+Isso significa que de alguma forma você encontrou esse projeto e agora pode olhar os detalhes.
 
-In the project directory, you can run:
+## 🤤 Como é que se come o react-restaurant ?
 
-### `yarn start`
+Apesar de se tratar de comida, o web site não se pode comer 😂.
+ Esse é um projeto [Create React App](https://github.com/facebook/create-react-app).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+É um buscador de restaurante baseado em localização geográfica. Través dele é possível descobrir qual restaurante vende aquela sua comida favorita🍲 mais próxima de você.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Conteúdo
+* [Início](#Inicio)
+    * [Recursos](#Recursos)
+    * [Pre-requisitos](#Pre-requisitos)
+* [Requerimentos](#Requerimentos)
+    * [Acesso](#Acesso)
+* [Tecnologias](#Tecnologias)
+* [Issues](#Issues-)
+    * [Report](#Report)
+* [Contribuições](#Contribuições-)
+* [Autor](#Autor-)
 
-### `yarn test`
+## Início
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📑Recursos
 
-### `yarn build`
+- [X] Buscador;
+- [X] Localização geográfica;
+- [X] Modal Própria;
+- [ ] Modo Noturno;
+- [ ] Versão Mobile;
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 💻 Pre-requisitos :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* <a href="https://git-scm.com">Git</a><small>   (configure bash in the terminal).</small>
+* <a href="https://code.visualstudio.com">Visual Studio Code</a><small>   (recomendado).</small>
+* <a href="https://yarnpkg.com/">Yarn</a>(gerenciador de pacotes)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Requerimentos
+- [Node.js](https://nodejs.org/en/) ;
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### 🗄️ Acesso :
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Clone este repositório
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ $ git clone <https://github.com/emanoelantonio/react-restaurante>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ Acesse a pasta do projeto pelo terminal
+ 
+ $ cd react-restaurante
 
-## Learn More
+ Rode o projeto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+ $ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
 
-### Code Splitting
+### Tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- [Node.js](https://nodejs.org/en/) ;
+- [Styled Components](https://styled-components.com/) ;
+- [React Redux](https://react-redux.js.org/) ;
+- [Google Maps API](https://developers.google.com/maps/apis-by-platform) ;
+- [React Slick](https://opencollective.com/react-slick) ;
+- [React Lottie](https://lottiefiles.com/blog/working-with-lottie/how-to-use-lottie-in-react-app) ;
 
-### Analyzing the Bundle Size
+### Issues :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### 📑 Report :
 
-### Making a Progressive Web App
+Você pode reportar algum problema em <a href="https://github.com/emanoelantonio/react-restaurante/issues">Issues</a> , isso é muito importante.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 🤝 Contribuições - We can advanced together!
 
-### Advanced Configuration
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Primeiro, você precisa fazer um fork local do projeto em sua máquina.
 
-### Deployment
+$ gh repo fork emanoel/react-restaurante/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clone seu fork
 
-### `yarn build` fails to minify
+$ git clone https://github.com/emanoelantonio/react-restaurante.git/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Acesse a pasta
+
+$ cd Proffy react-restaurante
+
+Crie uma branch com suas alterações
+
+$ git add {modified file name}
+
+Comente suas mudanças
+
+$ git commit -m “Comments”
+
+Envie seu código para a branch remota
+
+$ git push origin {branch-name}
+
+```
+
+### 🧠 Autor :
+ <img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/60781248?s=460&u=43dbba3483d275c3d8964df24a8f5139f53dc282&v=4" width="100px;" alt=""/>
+ <br /> 
+ <sub>Emanoel Antonio 👨🏻‍💻</sub>
+
+ ##### " To be continue... " 
+ <a href="https://www.linkedin.com/in/emanoel-antonio-silva/"><img align="center" src="https://img.shields.io/static/v1?label=&message=Linkedin&color=3D008A&style=for-the-badge&logo=linkedin"/></a>
